@@ -26,7 +26,7 @@ CSF-50K/
     masks/
   test/
     images/
-    masks/```
+    masks/...
 
 Each image has a corresponding mask with the same filename stem (one-to-one pairing).
 
