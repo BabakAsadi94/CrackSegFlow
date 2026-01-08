@@ -14,8 +14,9 @@ Preprint: https://arxiv.org/abs/2601.03637
 
 ## Dataset structure
 
-CSF-50K is split into train/val/test = 40,000 / 5,000 / 5,000 with paired images and masks:
+CSF-50K is split into **train/val/test = 40,000 / 5,000 / 5,000** with paired images and masks:
 
+```text
 CSF-50K/
   train/
     images/
