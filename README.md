@@ -26,4 +26,31 @@ CSF-50K/
     masks/
   test/
     images/
-    masks/
+    masks/```
+
+Each image has a corresponding mask with the same filename stem (one-to-one pairing).
+
+Data use policy (academic use only)
+
+CSF-50K is released for academic research use only.
+By downloading or using this dataset, you agree to:
+
+use it only for non-commercial research and educational purposes;
+
+not redistribute the dataset files (please share the official download link instead);
+
+include the citation below in publications or public reports that use CSF-50K.
+
+Citation
+
+Please cite the arXiv preprint:
+
+@article{asadi2026cracksegflow,
+  title         = {CrackSegFlow: Controllable Flow Matching Synthesis for Generalizable Crack Segmentation with a 50K Image--Mask Benchmark},
+  author        = {Asadi, Babak and Wu, Peiyang and Golparvar-Fard, Mani and Hajj, Ramez},
+  journal       = {arXiv},
+  year          = {2026},
+  eprint        = {2601.03637},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV}
+}
