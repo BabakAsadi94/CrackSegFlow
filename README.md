@@ -1,4 +1,4 @@
-# CSF-50K (CrackSegFlow-50K): 50,000 crack image–mask pairs
+# CSF-50K: 50,000 crack image–mask pairs
 
 CSF-50K is a 50,000-pair dataset of crack images and pixel-accurate binary masks designed for benchmarking **crack segmentation**, with emphasis on (i) **thin-structure topology** (hairline cracks), (ii) **strict mask–image alignment**, and (iii) **appearance diversity** (illumination, texture, and common confounders such as shadows, joints, stains, and markings).
 
@@ -8,8 +8,8 @@ This repository hosts **dataset documentation and download links** (the dataset 
 
 ## Paper / preprint
 
-CSF-50K is released with the CrackSegFlow paper, which is **under review**.  
-**Preprint:** [ADD PREPRINT LINK HERE]
+CSF-50K is released with the *“CrackSegFlow: Controllable Flow Matching Synthesis for Generalizable Crack Segmentation with a 50K Image–Mask Benchmark”* paper, which is **under review**.  
+**Preprint:** https://arxiv.org/abs/2601.03637
 
 ---
 
