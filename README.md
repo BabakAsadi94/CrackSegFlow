@@ -1,6 +1,6 @@
 # CSF-50K
 
-CSF-50K is a **50,000-pair** dataset of crack images and **pixel-accurate binary masks** designed for benchmarking **crack segmentation**, with emphasis on (i) **thin-structure topology** (hairline cracks), (ii) **strict mask–image alignment**, and (iii) **appearance diversity** (illumination, texture, and common confounders such as shadows, joints, stains, and markings).
+CSF-50K is a **50,000-pair** dataset of crack images and **pixel-accurate binary masks** designed for benchmarking **crack segmentation**, with emphasis on (i) **thin-structure topology** and (iii) **appearance diversity** (illumination, texture, and common confounders such as shadows, joints, stains, and markings).
 
 ## Paper / preprint
 
