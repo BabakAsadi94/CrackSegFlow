@@ -9,7 +9,7 @@ CSF-50K is released with the *“CrackSegFlow: Controllable Flow Matching Synthe
 
 ## Download
 
-- **CSF-50K (Google Drive, ~6 GB):**  
+- **CSF-50K (Google Drive, ~5.5 GB):**  
   https://drive.google.com/file/d/1M9ta2NYTee3KM0iLUbQxt97MCw_GO2MN/view?usp=sharing
 
 ## Dataset structure
