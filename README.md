@@ -1,35 +1,54 @@
 # CSF-50K: 50,000 crack image–mask pairs
 
-CSF-50K is a 50,000-pair dataset of crack images and pixel-accurate binary masks designed for benchmarking **crack segmentation**, with emphasis on (i) **thin-structure topology** (hairline cracks), (ii) **strict mask–image alignment**, and (iii) **appearance diversity** (illumination, texture, and common confounders such as shadows, joints, stains, and markings).
-
-This repository hosts **dataset documentation and download links** (the dataset is not stored in GitHub due to size).
-
----
+CSF-50K is a 50,000-pair dataset of crack images and pixel-accurate binary masks designed for benchmarking crack segmentation, with emphasis on (i) thin-structure topology (hairline cracks), (ii) strict mask–image alignment, and (iii) appearance diversity (illumination, texture, and common confounders such as shadows, joints, stains, and markings).
 
 ## Paper / preprint
 
-CSF-50K is released with the *“CrackSegFlow: Controllable Flow Matching Synthesis for Generalizable Crack Segmentation with a 50K Image–Mask Benchmark”* paper, which is **under review**.  
-**Preprint:** https://arxiv.org/abs/2601.03637
-
----
+CSF-50K is released with the *“CrackSegFlow: Controllable Flow Matching Synthesis for Generalizable Crack Segmentation with a 50K Image–Mask Benchmark”* paper, which is under review.  
+Preprint: https://arxiv.org/abs/2601.03637
 
 ## Download
 
-- **CSF-50K (Google Drive, ~6 GB):**  
+- CSF-50K (Google Drive, ~6 GB):  
   https://drive.google.com/file/d/1M9ta2NYTee3KM0iLUbQxt97MCw_GO2MN/view?usp=sharing
 
-> Recommended: the Google Drive link is a mirror/convenience link. If/when a DOI repository link is available (e.g., Mendeley Data), it should be considered the primary archival location.
+## Dataset structure
 
----
+CSF-50K is split into train/val/test = 40,000 / 5,000 / 5,000 with paired images and masks:
 
-## Quickstart (extraction)
+CSF-50K/
+  train/
+    images/
+    masks/
+  val/
+    images/
+    masks/
+  test/
+    images/
+    masks/
 
-### If the archive is `.rar`
-On Linux/macOS, the simplest option is `7z`:
+Each image has a corresponding mask with the same filename stem (one-to-one pairing).
 
-```bash
-# Ubuntu/Debian
-sudo apt-get update && sudo apt-get install -y p7zip-full
+## Data use policy (academic use only)
 
-# Extract
-7z x CSF-50K.rar
+CSF-50K is released for academic research use only.  
+By downloading or using this dataset, you agree to:
+
+- use it only for non-commercial research and educational purposes;
+- not redistribute the dataset files (please share the official download link instead);
+- include the citation below in publications or public reports that use CSF-50K.
+
+## Citation
+
+Please cite the arXiv preprint:
+
+```bibtex
+@article{asadi2026cracksegflow,
+  title         = {CrackSegFlow: Controllable Flow Matching Synthesis for Generalizable Crack Segmentation with a 50K Image--Mask Benchmark},
+  author        = {Asadi, Babak and Wu, Peiyang and Golparvar-Fard, Mani and Hajj, Ramez},
+  journal       = {arXiv},
+  year          = {2026},
+  eprint        = {2601.03637},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV}
+}
