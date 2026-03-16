@@ -42,12 +42,50 @@ By downloading or using this dataset, you agree to:
 
 ## Baseline models and checkpoints
 
-The table below reports **test-set** performance on **CSF-50K** for released baseline models. We report both **volumetric metrics** (mIoU and Dice) and **topological metrics** (clDice and Betti matching error, $\mu^{\mathrm{err}}$). Checkpoints will be added as they are released.
+The table below reports **test-set** performance on **CSF-50K** for released baseline models. We report both **volumetric metrics** (mIoU and Dice/F1) and **topological metrics** (clDice and Betti matching error, <i>&mu;</i><sup>err</sup>). Checkpoints will be added as they are released. We also encourage researchers who use CSF-50K to share the performance of their models with us so that we can update the table and maintain a broader benchmark comparison for the community.
 
-| Model | Paper | mIoU (%) | Dice (%) | clDice (%) | Betti matching error $\mu^{\mathrm{err}}$ | Checkpoint |
-|---|---|---:|---:|---:|---:|---|
-| SegFlow | [Paper]( ) | NA | NA | NA | NA | [Coming soon]( ) |
-| U-MiT | [Paper](https://arxiv.org/abs/2601.03637) | NA | NA | NA | NA | [Coming soon]( ) |
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Model</th>
+      <th colspan="2">Volumetric (↑)</th>
+      <th colspan="2">Topological</th>
+      <th rowspan="2">Checkpoint</th>
+    </tr>
+    <tr>
+      <th>mIoU</th>
+      <th>F1</th>
+      <th>clDice ↑</th>
+      <th><i>&mu;</i><sup>err</sup> ↓</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="">SegFlow</a></td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td><a href="">Coming soon</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://arxiv.org/abs/2601.03637">U-MiT</a></td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td><a href="">Coming soon</a></td>
+    </tr>
+    <tr>
+      <td>To be completed</td>
+      <td>--</td>
+      <td>--</td>
+      <td>--</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Citation
 
