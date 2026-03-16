@@ -54,7 +54,7 @@ The table below reports **test-set** performance on **CSF-50K** for released bas
     </tr>
     <tr>
       <th>mIoU</th>
-      <th>F1</th>
+      <th>Dice</th>
       <th>clDice ↑</th>
       <th><i>&mu;</i><sup>err</sup> ↓</th>
     </tr>
