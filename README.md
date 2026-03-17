@@ -43,7 +43,7 @@ By downloading or using this dataset, you agree to:
 ## Baseline models and checkpoints
 
 The table below reports **test-set** performance on **CSF-50K** for released baseline models. We report both **volumetric metrics** (mIoU and Dice) and **topological metrics** (clDice and Betti matching error, <i>&mu;</i><sup>err</sup>). We appreciate users of CSF-50K sharing model performance and, when available, checkpoints, as this helps us keep the benchmark updated and maintain a broader comparison for the community.
-<table>
+[<table>
   <thead>
     <tr>
       <th rowspan="2">Model</th>
@@ -84,7 +84,7 @@ The table below reports **test-set** performance on **CSF-50K** for released bas
       <td>--</td>
     </tr>
   </tbody>
-</table>
+</table>](https://drive.google.com/file/d/1Y7u69lrWaXDdC9A8BNGzcjoHnyeiW__G/view?usp=sharing)
 
 ## Citation
 
