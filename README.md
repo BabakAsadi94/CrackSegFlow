@@ -61,7 +61,7 @@ The table below reports **test-set** performance on **CSF-50K** for released bas
   </thead>
   <tbody>
     <tr>
-      <td>SegFlow</td>
+      <td><a href="https://arxiv.org/abs/2603.13659">SegFlow</a></td>
       <td>NA</td>
       <td>NA</td>
       <td>NA</td>
