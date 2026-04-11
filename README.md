@@ -82,16 +82,16 @@ The table below reports **test-set** performance on **CSF-50K** for released bas
 
 ## Citation
 
-Please cite the arXiv preprint:
+If you find CSF-50K useful in your research, please cite the following paper:
 
 ```bibtex
-@article{asadi2026cracksegflow,
-  title         = {CrackSegFlow: Controllable Flow Matching Synthesis for Generalizable Crack Segmentation with a 50K Image--Mask Benchmark},
-  author        = {Asadi, Babak and Wu, Peiyang and Golparvar-Fard, Mani and Hajj, Ramez},
-  journal       = {arXiv},
-  year          = {2026},
-  eprint        = {2601.03637},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV}
+@article{asadi2026controllable,
+  title={Controllable flow matching synthesis for generalizable crack segmentation with a 50k image--mask benchmark},
+  author={Asadi, Babak and Wu, Peiyang and Golparvar-Fard, Mani and Hajj, Ramez},
+  journal={Automation in Construction},
+  volume={187},
+  pages={106938},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
