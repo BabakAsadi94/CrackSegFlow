@@ -7,7 +7,7 @@ CSF-50K was released alongside the paper [*Controllable Flow Matching Synthesis 
 ## Download
 
 - **CSF-50K (Google Drive, ~5.5 GB):**  
-https://drive.google.com/file/d/1jL6uI0LfHAQS6IoSHmeEoOuXXAXfE_MY/view?usp=sharing
+https://drive.google.com/file/d/1jewAXi5qwV1Ju7Hxe9GJ-Tn49hFAE0PL/view?usp=sharing
 
 ## Dataset structure
 
@@ -58,7 +58,7 @@ The table below reports **test-set** performance on **CSF-50K** for released bas
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://arxiv.org/abs/2601.03637">U-MiT</a></td>
+      <td><a href="https://www.sciencedirect.com/science/article/pii/S0926580526001792">U-MiT</a></td>
       <td>69.64</td>
       <td>82.11</td>
       <td>84.70</td>
